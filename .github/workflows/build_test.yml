@@ -7,7 +7,7 @@ on:
         type: choice
         description: "配置文件"
         required: true
-        default: realme_gt5_v
+        default: realme_gt5_b
         options:
           - oneplus_nord_ce4_lite_5g_v
           - oneplus_nord_ce4_v
@@ -38,6 +38,7 @@ on:
           - realme_gt6_v
           - realme_gt5pro_v
           - realme_gt5_v
+          - realme_gt5_b
           - realme_gt7pro_v
           - realme_gt7pro-speed_v
           - realme_gtneo6_v
