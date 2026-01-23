@@ -4,6 +4,7 @@
 适用于Realme GT5(RMX3820/RMX3823)的SukiSU Ultra内核，每日凌晨12点，检测到代码更新自动编译发布。
 
 只能给Realme UI 7.0的设备用！在Realme UI 6.0刷就等着砖吧你。
+
 如果你在寻找RealmeUI 6.0的话，那你应该需要去这里：[点我](https://github.com/DestoryG/GT5-Kernel-Builds-RUI6)
 
 现在是空的，因为SukiSU上游代码写坏了没法编译出来(估计过些天就修好了)，不过能开出来的话应该发release的
