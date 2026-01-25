@@ -1,5 +1,5 @@
 # 不再维护！
-因更新编译代码过于老旧没法再改出能用的编译工作流了，本项目现已废弃，现基于Numbersf最新脚本重构[新仓库](https://github.com/DestoryG/GT5-Action-Build)，同时包含了GT5 Realme UI 6.0和7.0两个系统的支持！
+因更新编译代码过于老旧没法再改出能用的编译工作流了，本项目现已废弃，现基于Numbersf最新脚本重构[新仓库](https://github.com/DestoryG/GT5-Action-Build)！
 
 # GT5-Kernel-Builds
 **```Build Realme GT5's SukiSU Ultra Kernel```** 
