@@ -11,7 +11,7 @@ env:
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"   # 每天 00:00 UTC 检查
+    - cron: '0 0 * * *'   # 每天 00:00 UTC 检查
 
 jobs:
   check:
@@ -53,6 +53,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.ACTION_MANAGE_TOKEN }}
         run: |
-          curl -X POST https://api.github.com/repos/${{ github.repository }}/actions/workflows/build_test.yml/dispatches \
-          -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-          -d '{"ref": "${{ github.ref }}"}'
+          gh api \
+            -X POST \
+            /repos/${{ github.repository }}/actions/workflows/build_test.yml/dispatches \
+            -f ref=${{ github.ref }}
